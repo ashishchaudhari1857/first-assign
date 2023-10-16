@@ -1,0 +1,131 @@
+.loginContainer {
+    width: 24rem;
+    border: 2px solid purple;
+    padding: 0.5rem;
+    border-radius: 14px;
+    z-index: 1;
+  }
+
+
+
+  .loginHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4285F4;
+    font-size: 1.4rem;
+    padding: 0.4rem;    
+    border-radius: 15.2px;
+    width: 22rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    background-color: transparent;
+    height: 1.9rem;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px black;
+    font-size: 1.1rem;
+    border: 1px solid rgb(129, 76, 76);
+    color: white;
+    padding: 0.5rem;
+    margin: 0.3rem;
+  }
+  
+  .personalDetails {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .personalDetails input {
+    width: 10.8rem;
+  }
+  
+  .identification {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .identification input {
+    width: 22.2rem;
+  }
+
+   .actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap:0.2rem;
+
+   }
+
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23rem;
+    padding: 1.2rem;
+    height: 2.3rem;
+    background: linear-gradient(#873cd7, #2f2929);
+    border-radius: 12px;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    border: 1px solid rgb(55, 52, 52);
+    box-shadow: 1px 1px gray;
+  }
+  .orline{
+     background-color: black;
+     width: 22rem;
+     height: 1px;
+     display: flex;
+     justify-content: center;
+  }
+
+  p{
+    text-align: justify;
+    width: 23rem;
+    font-size: 1rem;
+    color: rgb(144, 141, 135);
+    font-family:cursive;
+    z-index: 1;
+    padding: 1rem;
+  }
+.userOrNot{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem
+;
+}
+
+  @media(max-width:420px){
+    .loginContainer {
+        width: 20rem;
+        padding: 0.5rem;
+        border: 1px solid red ;
+      }
+      .loginHeader{
+        font-size: 1.4rem;
+        padding: 0.2rem;    
+        width: 19rem;
+      }
+
+      
+  .personalDetails input {
+    width: 8rem;
+  }
+  .identification input{
+    width: 18rem;
+  }
+  button{
+    width: 18rem;
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.9rem;
+    width: 18rem;
+  }
+  }

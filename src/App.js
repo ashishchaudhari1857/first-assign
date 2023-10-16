@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Firstblock from './Components/first-block/Firstblock';
+import Craft from './Components/Craft/Craft';
+import Bubble from './Components/Bubble/Bubble';
+import Connection from './Components/ConnectionPage/Connection';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/header/Header';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+    <Firstblock></Firstblock>
+    <Craft></Craft>
+    <Bubble></Bubble>
+    <Connection></Connection>
+    <Footer></Footer>
     </div>
   );
 }

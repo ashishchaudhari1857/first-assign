@@ -1,0 +1,140 @@
+.main {
+  background: linear-gradient(#121212, #1e1c22);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100vh;
+}
+
+.main img {
+  width: 100%;
+}
+.content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content p {
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 2.3rem;
+  margin: 0.6rem;
+}
+
+.btn {
+  padding: 1rem 1rem;
+  width: 9rem;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1.8rem;
+}
+
+.community {
+  background: linear-gradient(
+      to right,
+      rgb(51, 3, 51),
+      rgb(17, 16, 16),
+      rgb(175, 50, 50)
+    ),
+    linear-gradient(
+      to bottom,
+      rgb(31, 11, 31),
+      rgb(48, 39, 39),
+      rgb(62, 11, 11)
+    );
+  width: 90vw;
+  height: 50vh;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px 1px rgb(199, 140, 140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  position: relative;
+}
+
+.community img {
+  width: 50%;
+  height: 50vh;
+}
+.data {
+  position: absolute;
+}
+.data p {
+  font-size: 1.3rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.data h1 {
+  font-size: 2.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 1rem;
+}
+.data .btn {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1199px) {
+  .content h1 {
+    font-size: 1.9rem;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    margin-top: 0.6rem;
+  }
+  .community {
+    margin-top: 4rem;
+  }
+  .data p {
+    font-size: 1.3rem;
+  }
+  .data {
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .content h1 {
+    font-size: 1.5rem;
+    margin-top: 0.4rem;
+  }
+
+  .btn {
+    margin-top: 0.5rem;
+  }
+  .community {
+    margin-top: 2rem;
+  }
+  .data p {
+    font-size: 1rem;
+  }
+  .community img {
+    width: 50%;
+  }
+  .content p {
+    font-size: 1.1rem;
+  }
+}
