@@ -92,13 +92,13 @@
     font-family:cursive;
     z-index: 1;
     padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
   }
 .userOrNot{
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 0.4rem
-;
+    margin-top: 0.4rem;
 }
 
   @media(max-width:420px){
